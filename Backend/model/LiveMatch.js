@@ -30,12 +30,12 @@ const LiveMatchSchema=new mongoose.Schema({
     },
     score:{
         team1:{
-            type:String,
-            default:""
+            type:Number,
+            default:0
         },
         team2:{
-            type:String,
-            default:""
+            type:Number,
+            default:0
         }
     },
     toss:{
